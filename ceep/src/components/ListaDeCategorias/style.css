@@ -1,0 +1,30 @@
+.lista-categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 4;
+}
+
+.lista-categorias_lista{
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    margin: 12px;
+    gap: 30px;
+    align-content: center;
+}
+
+.lista-categorias_item{
+    background-color: rgba(3, 3, 26, 0.76);
+    border-radius: 12px;
+    padding: 7px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.lista-categorias-botao{
+    height: 20px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 25px 50px 75px 100px;
+}
