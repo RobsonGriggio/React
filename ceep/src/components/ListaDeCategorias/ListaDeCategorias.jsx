@@ -14,18 +14,16 @@ class ListaDeCategorias extends Component {
     }
   }
 
-  _criaCategoria(){
+  /* _criaCategoria(){
     this.props.criaCategoria(this.categoria)
-  }
+  } */
 
   render() {
     return (
-      <section>
-        <ul>
-          <li>Categorias</li>
-          <li>Categorias</li>
-          <li>Categorias</li>
-          <li>Categorias</li>
+      <section className="lista-categorias">
+        <ul className="lista-categorias_lista">
+          {this.props.categoria}
+          <li className="lista-categorias_item">Categorias</li>
         </ul>
         <input
           type="text"
