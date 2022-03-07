@@ -11,7 +11,7 @@ class App extends Component {
 
     this.state = {
       nota: [],
-      categoria: ["Games", "Musica"],
+      categoria: [],
     };
   }
   criaNota(titulo, texto, categoria) {
